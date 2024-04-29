@@ -1,4 +1,4 @@
-name: Format Code
+name: Format the code
 'on':
   push: null
   pull_request: null
@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - name: Run Prettier
+      - name: Prettier
         run: npx prettier --write */.js
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
