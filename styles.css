@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .container h1, .container h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .input-group input[type="url"],
+        .input-group input[type="number"] {
+            width: calc(100% - 75px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .input-group button {
+            width: 75px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3aa5e7;
+            color: #fff;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .input-group button:hover {
+            background-color: #065485;
+        }
+
+        .result {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .result a {
+            color: #3aa5e7;
+            text-decoration: none;
+        }
+
+        .result button {
+            margin-top: 10px;
+            background-color: #3aa5e7;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .result button:hover {
+            background-color: #065485;
+        }
